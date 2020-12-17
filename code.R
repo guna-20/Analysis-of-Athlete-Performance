@@ -1,4 +1,4 @@
-data_set<-read.csv("D:/Studies/Paper Vizag/athlete_events.csv")
+data_set<-read.csv("athlete_events.csv")
 sports=data_set$Sport
 #data_set<-data.frame(data_set$Age,data_set$Height,data_set$Weight,data_set$Points)
 data_set<-data.frame(Age=data_set$Age,Height=data_set$Height,Weight=data_set$Weight,Sport=data_set$Sport,Points=data_set$Points)
