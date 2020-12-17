@@ -2,11 +2,11 @@
 Predicting-Athlete-Performance
 An athlete performance can be determined by many factors such as height, age, and weight. Hence, we analyse which of these factors affect the performance of the athlete the most. Here we use statistical methods like correlation, regression and hypothesis testing. This project helps us to predict the chance of winning in the Olympic games and also helps to choose the most appropriate one among all the athletes by a country for the Olympic games.
 
-METHODOLOGY
+# METHODOLOGY
 
 We use R language and MS Excel for this project. First using MS Excel, we filtered our dataset which contained unwanted data’s like name, nationality, year. In R, we have stored the data of each sport in an index of a list. Then we get input from the user to select the sports we want to know about. After the sports is selected by the user, the p value is checked for the variables. Further analysis can be done only if the p-value is lesser than 0.5. This ensures that there is a strong relationship between the variables and further analysis carried out will be correct. Next we plot correlation matrix and scatter plot to know the relation between medals and age, height and weight. Then finally we find the regression equation so the end user can simply give in age, height and weight inputs and can select the highest value for medal.
 
-TECHNIQUES USED IN STATISTICS:
+# TECHNIQUES USED IN STATISTICS:
 
 1.Correlation
 
@@ -14,7 +14,7 @@ TECHNIQUES USED IN STATISTICS:
 
 3.P-value
 
-FUNCTIONS USED IN R:
+# FUNCTIONS USED IN R:
 
 1.pairs.panel()
 
@@ -34,7 +34,7 @@ Where: • b, c, d – slopes • Y – dependent variable • X1, X2, X3 – in
 
 P-Values: The p-value for each term tests the null hypothesis that the coefficient is equal to zero (no effect). A low p-value (< 0.05) indicates that you can reject the null hypothesis. In other words, a predictor that has a low p-value is likely to be a meaningful addition to your model because changes in the predictor's value are related to changes in the response variable. Conversely, a larger (insignificant) p-value suggests that changes in the predictor are not associated with changes in the response. The variables used in this test are: • Dependent variable : Medal • Independent variable : Age, Height and Weight
 
-How to Run
+# How to Run
 
 Download the code.R file and the dataset (Extract the athlete_events.rar) to the same directory.
 
